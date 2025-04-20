@@ -1,0 +1,37 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Tecnología</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">Catálogo de Outsourcing - Tecnología</h1>
+  </header>
+
+  <main class="p-4">
+    <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="productos">
+      <!-- Producto ejemplo -->
+      <div class="bg-white rounded-lg shadow p-4">
+        <img src="https://via.placeholder.com/300x200" alt="Fotocopiadora" class="w-full h-48 object-cover rounded">
+        <h2 class="text-xl font-semibold mt-2">Fotocopiadora Canon X123</h2>
+        <p class="text-sm text-gray-600">Alta velocidad, doble cara, ideal para oficinas grandes.</p>
+        <p class="text-blue-600 font-bold mt-2">$1,200</p>
+        <div class="mt-4">
+          <a href="producto.html?id=1" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded text-center block">Ver detalles y comprar</a>
+        </div>
+      </div>
+      <!-- Fin producto ejemplo -->
+    </section>
+  </main>
+
+  <footer class="bg-white text-center text-sm text-gray-500 p-4 mt-10">
+    <div class="mb-2">
+      <a href="https://wa.me/1234567890" target="_blank" class="text-green-600 hover:underline mx-2">Contacto por WhatsApp</a>
+      <a href="tel:+1234567890" class="text-blue-600 hover:underline mx-2">Llamar</a>
+    </div>
+    &copy; 2025 Outsourcing Tecnología. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
